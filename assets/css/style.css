@@ -1,0 +1,53 @@
+#My-Name {
+	position:absolute;
+	top:0;
+	background:#49AAA4;
+	color:white;
+	height:80px;
+	width:160px;
+	text-align:center;
+	line-height:80px;
+}
+
+
+#heading {
+	color:#49AAA4;
+}
+
+
+body {
+	background-image:url('https://3.bp.blogspot.com/-VQ6T6YzpbWc/U5gbCKBhSvI/AAAAAAAAGRA/rxgR4gfWU8g/s1600/lightly-textured-background-tile.jpg');
+	padding-top:80px;
+	margin-right:100px;
+	margin-left:100px;
+
+}
+
+
+#Padding-Box {
+	position:absolute;
+	background:#49AAA4;
+	height:10px;
+	width:100%;
+	padding:0;
+	left:0;
+	right:0;
+	bottom:80px; /*Move down to the bottom next to the footer*/
+	margin:auto;
+}
+
+#Footer {
+	color:white;
+	position:fixed; /*Don't want it to move... also this is needed to get rid of margins*/
+	background: grey;
+	padding:0px;
+	font-size:14px;
+	height:80px;
+	text-align:center;
+	line-height: 80px; /*line height of same height will center*/
+	position:fixed;
+	bottom:0;
+	width:100%;
+	margin:auto;
+	left:0;
+}
