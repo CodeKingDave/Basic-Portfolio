@@ -6,43 +6,43 @@
 	position:fixed;
 	top:0;
 	height:80px;
-	background:white;
+	background:#ffffff;
 	width:100%;
 	margin:auto;
 	left:0;
 	right:0;
-	border-bottom:1px solid grey;
+	border-bottom:1px solid #cccccc;
 	z-index:3;
 }
 
 #Main-Body-Box{
 	position:absolute; /* Put the box in the background (like it takes up no space) */
-	background:white;
+	background:#ffffff;
 	height:450px;	
 	width:650px;
 	z-index:-1;
 	margin-top:40px;
-	border:1px solid grey;
+	border:1px solid #dddddd;
 }
 
 #Main-Body-Box-P{
 	position:absolute; /* Put the box in the background (like it takes up no space) */
-	background:white;
+	background:#ffffff;
 	height:1000px;	
 	width:650px;
 	z-index:-1;
 	margin-top:40px;
-	border:1px solid grey;
+	border:1px solid #dddddd;
 }
 
 #Right-Body-Box{
 	position:absolute;
-	background:white;
+	background:#ffffff;
 	height:200px;
 	width:270px;
 	z-index:-1;
 	top:120px;
-	border:1px solid grey;
+	border:1px solid #cccccc;
 	right:-15px;
 	overflow:hidden;
 	margin-left:auto;
@@ -52,6 +52,7 @@
 	color:#49AAA4;
 	font-size:16px;
 	font-weight:bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #RBB-Git{
@@ -248,6 +249,7 @@
 	line-height:80px;
 	font-size:18px;
 	z-index:3;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #Button2{
@@ -261,9 +263,10 @@
 	text-align:center;
 	line-height:80px;
 	font-size:18px; 
-	border-right:1px solid grey;
-	border-left:1px solid grey;
+	border-right:1px solid #cccccc;
+	border-left:1px solid #cccccc;
 	z-index:3;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #Button3{
@@ -278,8 +281,13 @@
 	line-height:80px;
 	font-size:18px; 
 	z-index:3;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.None{
+	text-decoration:none;
+	color:#777777;
+}
 
 #Heading {
 	color:#4aaaa5;
@@ -289,6 +297,7 @@
 	margin-bottom:0px;
 	font-size:30px;
 	font-weight:bold;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 #Small-Body-Box {
@@ -344,7 +353,7 @@ p {
 #Footer {
 	color:white;
 	position:fixed; /*Don't want it to move... also this is needed to get rid of margins*/
-	background: grey;
+	background: #666666;
 	padding:0px;
 	font-size:14px;
 	height:80px;
@@ -356,6 +365,7 @@ p {
 	margin:auto;
 	left:0;
 	z-index:4;
+	font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* Style inputs with type="text", select elements and textareas */
