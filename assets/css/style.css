@@ -12,12 +12,23 @@
 	left:0;
 	right:0;
 	border-bottom:1px solid grey;
+	z-index:3;
 }
 
 #Main-Body-Box{
 	position:absolute; /* Put the box in the background (like it takes up no space) */
 	background:white;
 	height:450px;	
+	width:650px;
+	z-index:-1;
+	margin-top:40px;
+	border:1px solid grey;
+}
+
+#Main-Body-Box-P{
+	position:absolute; /* Put the box in the background (like it takes up no space) */
+	background:white;
+	height:1000px;	
 	width:650px;
 	z-index:-1;
 	margin-top:40px;
@@ -101,8 +112,118 @@
 	margin-right:auto;
 }
 
+#Image1{
+	float:left;
+	height:275px;
+	width:275px;
+	margin-left:30px;
+	margin-right:10px;
+	margin-bottom:20px;
+
+}
+
+#B1{
+	position:absolute; /* absolute positioning doesn't take up space */
+	background-color:#49AAA4;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	height:50px;
+	width:275px;
+	z-index:2;
+	margin-left:30px;
+	margin-top:210px;
+}
+
+#Image2{
+	float:left;
+	height:275px;
+	width:275px;
+	margin-left:30px;
+	margin-bottom:20px;
+}
+
+#B2{
+	position:absolute; /* absolute positioning doesn't take up space */
+	background-color:#49AAA4;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	height:50px;
+	width:275px;
+	z-index:2;
+	margin-left:345px;
+	margin-top:210px;
+}
+
+#Image3{
+	clear:both;
+	float:left;
+	height:275px;
+	width:275px;
+	margin-left:30px;
+	margin-right:10px;
+	margin-bottom:20px;
+}
+
+#B3{
+	position:absolute; /* absolute positioning doesn't take up space */
+	background-color:#49AAA4;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	height:50px;
+	width:275px;
+	z-index:2;
+	margin-left:30px;
+	margin-top:505px;
+}
+
+#Image4{
+	float:left;
+	height:275px;
+	width:275px;
+	margin-left:30px;
+	margin-bottom:20px;
+}
+
+#B4{
+	position:absolute; /* absolute positioning doesn't take up space */
+	background-color:#49AAA4;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	height:50px;
+	width:275px;
+	z-index:2;
+	margin-left:345px;
+	margin-top:505px;
+}
+
+#Image5{
+	clear:both;
+	float:left;
+	height:275px;
+	width:275px;
+	margin-left:30px;
+	margin-bottom:170px;
+}
+
+#B5{
+	position:absolute; /* absolute positioning doesn't take up space */
+	background-color:#49AAA4;
+	text-align:center;
+	line-height:50px;
+	color:white;
+	height:50px;
+	width:275px;
+	z-index:2;
+	margin-left:30px;
+	margin-top:800px;
+}
+
 #My-Name {
-	position:absolute;
+	position:fixed;
 	top:0;
 	background:#4aaaa5;
 	color:white;
@@ -111,14 +232,14 @@
 	text-align:center;
 	line-height:80px;
 	font-size:30px; 
-	z-index:1; /* Put my name on top of the white header box */
+	z-index:4; /* Put my name on top of the white header box */
 	font-weight:bold;
 }
 
 #Button1{
-	position:absolute;
+	position:fixed;
 	top:0;
-	right:150px;
+	right:370px;
 	background:white;
 	color:grey;
 	height:80px;
@@ -126,12 +247,13 @@
 	text-align:center;
 	line-height:80px;
 	font-size:18px;
+	z-index:3;
 }
 
 #Button2{
-	position:absolute;
+	position:fixed;
 	top:0;
-	right:60px;
+	right:280px;
 	background:white;
 	color:grey;
 	height:80px;
@@ -141,12 +263,13 @@
 	font-size:18px; 
 	border-right:1px solid grey;
 	border-left:1px solid grey;
+	z-index:3;
 }
 
 #Button3{
-	position:absolute;
+	position:fixed;
 	top:0;
-	right:-30px;
+	right:200px;
 	background:white;
 	color:grey;
 	height:80px;
@@ -154,6 +277,7 @@
 	text-align:center;
 	line-height:80px;
 	font-size:18px; 
+	z-index:3;
 }
 
 
@@ -184,7 +308,6 @@ body {
 	margin-right:100px;
 	margin-left:100px;
 	width:960px;
-
 }
 
 p {
@@ -215,6 +338,7 @@ p {
 	right:0;
 	bottom:80px; /*Move down to the bottom next to the footer*/
 	margin:auto;
+	z-index:4;
 }
 
 #Footer {
@@ -231,6 +355,7 @@ p {
 	width:100%;
 	margin:auto;
 	left:0;
+	z-index:4;
 }
 
 /* Style inputs with type="text", select elements and textareas */
